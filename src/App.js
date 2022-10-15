@@ -1,13 +1,14 @@
 import { Component, Fragment } from "react";
 import "./App.css";
+import Fruit from "./components/Fruits";
 
 class App extends Component {
-  constructor() {
-    super();
-  }
-
   render() {
-    return <Fragment></Fragment>;
+    return (
+      <Fragment>
+        <Fruit />
+      </Fragment>
+    );
   }
 }
 
